@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ADMISSIONS | College Admissions</title>
+    <!--PNC LOGO ICON-->
+    <link rel="icon" type="image/png" href="../assets/images/Pnc Logo.png">
+    <!-- LINK BOOTSTRAP CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--LINK MAIN CSS FILE-->
+    <link rel="stylesheet" href="../css/style.css">
+    <!--LINK CURRENT FILE SPECIFIC CSS FILE--> 
+    <link rel="stylesheet" href="../css/admissions-style.css">
+</head>
+<body>
+    <!--NAVIGATION BAR SECTION-->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <!--NAVIGATION BAR UNIVERSITY OF CABUYAO BANNER-->
+            <a class="navbar-brand" href="#">
+                <img src="../assets/images/pnc-header-2-white.png" alt="PNC Pamantasan ng Cabuyao">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link nav-item-text" href="../index.html"> Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="programsDropdown" role="button" data-bs-toggle="dropdown">
+                            About Us
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="about/hymn.html">Hymn</a></li>
+                            <li><a class="dropdown-item" href="about/history.html">History</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="programsDropdown" role="button" data-bs-toggle="dropdown">
+                            Programs
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="programs.html">All Programs</a></li>
+                            <li><a class="dropdown-item" href="programs/college-of-computing.html">College of Computing</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" id="programsDropdown" role="button" data-bs-toggle="dropdown">
+                            Admissions
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">All about admissions</a></li>
+                            <li><a class="dropdown-item" href="admissions/admission-form.html">Admission Form</a></li>
+                            <li><a class="dropdown-item" href="admissions/requirements.html">Requirements</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link disabled">Research</a></li>
+                    <li class="nav-item"><a class="nav-link disabled">Contact</a></li>
+                    <!--GOOGLE MAP LOCATION REDIRECT-->
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://maps.app.goo.gl/44Q8Vd6pKrgykF797">
+                            Location
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--HERO SECTION - Shows a background of the university campus with logo-->
+    <section class="hero-section text-center">
+        <div class="container">
+            <img src="assets/images/pnc Logo.png" class="hero-section-logo" alt="">
+            <h1 id="pnc-header" class="display-3 old-english-font" style=" -webkit-text-stroke: 1px rgb(255, 255, 255);">
+                Admissions Page
+            </h1>
+            <a href="../apply-form.html" class="btn btn-primary btn-lg mt-3">Apply Now</a>
+        </div>
+    </section>
+    <section class="main-section">
+        <strong>
+            <section class="requirements">
+                <h2 class="text-white">Requirements</h2>
+                <p class="fst-italic fw-bold">
+                  The following requirements must be submitted to the Registrar's Office before admission to any academic program:
+                </p>
+              
+                <div class="accordion" id="requirementsAccordion">
+                  <!-- Senior High School -->
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="shsHeading">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#shsCollapse" aria-expanded="true" aria-controls="shsCollapse">
+                        Senior High School
+                      </button>
+                    </h2>
+                    <div id="shsCollapse" class="accordion-collapse collapse show" aria-labelledby="shsHeading" data-bs-parent="#requirementsAccordion">
+                      <div class="accordion-body">
+                        <h6>Grade 11</h6>
+                        <ul>
+                          <li>Original Form 138 / SF9-JHS (Progress Report Card)</li>
+                          <li>Original Form 137 / SF10-JHS (Academic Record)</li>
+                          <li>PSA-issued Birth Certificate</li>
+                          <li>Certificate of Good Moral Character or School Recommendation</li>
+                          <li>Medical Certificate</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+              
+                  <!-- College -->
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="collegeHeading">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collegeCollapse" aria-expanded="false" aria-controls="collegeCollapse">
+                        College
+                      </button>
+                    </h2>
+                    <div id="collegeCollapse" class="accordion-collapse collapse" aria-labelledby="collegeHeading" data-bs-parent="#requirementsAccordion">
+                      <div class="accordion-body">
+                        <h6>Freshmen</h6>
+                        <ul>
+                          <li>Original Form 138 / SF9-SHS</li>
+                          <li>Original Form 137 / SF10-SHS</li>
+                          <li>PSA-issued Birth Certificate</li>
+                          <li>Certificate of Good Moral Character or School Recommendation</li>
+                          <li>Medical Certificate</li>
+                        </ul>
+              
+                        <h6>Transferees</h6>
+                        <ul>
+                          <li>Certificate of Transfer (Honorable Dismissal)</li>
+                          <li>Official Transcript of Records</li>
+                          <li>PSA-issued Birth Certificate</li>
+                          <li>Certificate of Good Moral Character or Dean/Program Head Recommendation</li>
+                          <li>Medical Certificate</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              
+              <section class="modes-of-application mt-5">
+                <!-- Online Pre-Registration -->
+                <div class="card mb-3">
+                  <div class="card-header">
+                    Online Pre-Registration <i class="bi bi-wifi"></i>
+                  </div>
+                  <div class="card-body">
+                    <ol>
+                      <li>
+                        Visit the application portal: 
+                        <a href="https://admission.pnc.edu.ph/student/registration" target="_blank">admission.pnc.edu.ph</a>
+                      </li>
+                      <li>
+                        Ensure your email is active. All admission communication will be via email, including a confirmation of submission.
+                      </li>
+                      <li>Online registration closes on April 7, 2025.</li>
+                    </ol>
+                  </div>
+                </div>
+              
+                <!-- Onsite Application -->
+                <div class="card">
+                  <div class="card-header">
+                    Onsite <i class="bi bi-house-door"></i>
+                  </div>
+                  <div class="card-body">
+                    <p>
+                      Please review safety protocols at 
+                      <a href="https://www.pnc.edu.ph/campus-safety" target="_blank">pnc.edu.ph/campus-safety</a> before visiting.
+                    </p>
+                    <ol>
+                      <li>Visit the PNC campus during office hours.</li>
+                      <li>Submit initial requirements from Jan 27 to Apr 7, 2025.</li>
+                      <li>
+                        Only pre-registered applicants who submit documents during this period will be scheduled for assessment exams.
+                      </li>
+                      <li>Submit complete admission requirements before classes start.</li>
+                    </ol>
+                  </div>
+                </div>
+              </section>
+              
+              <section class="recent-posts mt-5 responsive-grid" >
+                <h2 class="text-white" style="margin-right: 20px; text-align: end; align-self: center;">Announcements</h2>
+                <div id="carouselExampleIndicators" class="carousel slide responsive-box" data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></button>
+                  </div>
+              
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="../assets/images/1.jpg" class="d-block w-100" alt="Announcement 1">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../assets/images/2.jpg" class="d-block w-100" alt="Announcement 2">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../assets/images/3.jpg" class="d-block w-100" alt="Announcement 3">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../assets/images/4.jpg" class="d-block w-100" alt="Announcement 4">
+                    </div>
+                  </div>
+              
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </section>
+    </section>
+        <!-- CHATBOT -->
+        <div id="chat-bubble-container" style="position: fixed; right: 0;">
+            <button disabled type="button" style="background-color: #0fa13100; border: 0;" data-toggle="tooltip" data-placement="top" title="This feature is current unavailable">
+                <img src="../assets/images/pixel-speech-bubble.png" alt="" style="width: 300px;">
+            </button>
+        </div>
+        <div id="chatbot-container" style="position: fixed; right: 0;">
+            <button disabled type="button" style="background-color: #0fa13100; border: 0;" data-toggle="tooltip" data-placement="top" title="This feature is current unavailable">
+                <img src="../assets/images/PncChatBot.png" alt="" style="width: 150px;">
+            </button>
+        </div>
+         <!--STORE-->
+         <div style="position: fixed; right: 0; width: px; bottom: 80%;">
+            <button type="button" data-bs-toggle="modal" data-bs-target="#storeModal" style="background-color: #0fa13100; border: 0;">
+                <h4 class="old-english-font" style="background-color: #0fa131; padding: 10px; border: 5px rgb(202, 230, 103); border-radius: 10px 50px; color: white;">
+                    Store
+                </h4>
+            </button>
+        </div>
+        <!--MODAL FOR STORE-->
+        <div class="modal fade" id="storeModal" tabindex="-1" aria-labelledby="storeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header bg-success text-white">
+                        <h5 class="modal-title old-english-font" id="storeModalLabel">Welcome to the PnC Store!</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- Store Items 1st Row-->
+                        <div class="row">
+                            <div class="col-md-4 mb-3">
+                                <div class="card h-100">
+                                    <img src="../assets/images/UniversityUniforms/482213366_947936000835061_1161163883826224495_n.jpg" class="card-img-top" alt="PnC Shirt">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">Scrub Suit</h5>
+                                        <p class="card-text">₱350</p>
+                                        <button class="btn btn-success">Add to Cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <div class="card h-100">
+                                    <img src="../assets/images/UniversityUniforms/481334632_947935950835066_1974477208484487761_n.jpg" class="card-img-top" alt="PnC Mug">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">Nursing Uniform</h5>
+                                        <p class="card-text">₱150</p>
+                                        <button class="btn btn-success">Add to Cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <div class="card h-100">
+                                    <img src="../assets/images/UniversityUniforms/481258252_947935647501763_7978500574224722566_n.jpg" class="card-img-top" alt="PnC Cap">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">Pyschology Uniform</h5>
+                                        <p class="card-text">₱250</p>
+                                        <button class="btn btn-success">Add to Cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Store Items 2nd Row-->
+                        <div class="row">
+                            <div class="col-md-4 mb-3">
+                                <div class="card h-100">
+                                    <img src="../assets/images/UniversityUniforms/481139014_947935964168398_8139406418160635835_n.jpg" class="card-img-top" alt="PnC Shirt">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">University Uniform</h5>
+                                        <p class="card-text">₱350</p>
+                                        <button class="btn btn-success">Add to Cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <div class="card h-100">
+                                    <img src="../assets/images/UniversityUniforms/481118991_947935657501762_6884933904237986422_n.jpg" class="card-img-top" alt="PnC Mug">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">PE Uniform</h5>
+                                        <p class="card-text">₱150</p>
+                                        <button class="btn btn-success">Add to Cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <div class="card h-100">
+                                    <img src="../assets/images/UniversityUniforms/481070684_947935677501760_8735485002612114202_n.jpg" class="card-img-top" alt="PnC Cap">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">University Uniform</h5>
+                                        <p class="card-text">₱250</p>
+                                        <button class="btn btn-success">Add to Cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                         <!-- Store Items 3rd Row-->
+                         <div class="row">
+                            <div class="col-md-4 mb-3">
+                                <div class="card h-100">
+                                    <img src="../assets/images/IDLaces/481971958_947935974168397_4335661097046827173_n.jpg" class="card-img-top" alt="PnC Shirt">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">Psychology ID Lace</h5>
+                                        <p class="card-text">₱350</p>
+                                        <button class="btn btn-success">Add to Cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <div class="card h-100">
+                                    <img src="../assets/images/IDLaces/481907489_947935777501750_444185816494687769_n.jpg" class="card-img-top" alt="PnC Mug">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">COED ID Lace</h5>
+                                        <p class="card-text">₱150</p>
+                                        <button class="btn btn-success">Add to Cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <div class="card h-100">
+                                    <img src="../assets/images/IDLaces/481893247_947935977501730_648708300162392238_n.jpg" class="card-img-top" alt="PnC Cap">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">CCS ID Lace</h5>
+                                        <p class="card-text">₱250</p>
+                                        <button class="btn btn-success">Add to Cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Store Items 4th Row-->
+                        <div class="row">
+                            <div class="col-md-4 mb-3">
+                                <div class="card h-100">
+                                    <img src="../assets/images/IDLaces/481206871_947935957501732_4883641201757693227_n.jpg" class="card-img-top" alt="PnC Shirt">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">COE ID Lace</h5>
+                                        <p class="card-text">₱350</p>
+                                        <button class="btn btn-success">Add to Cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <div class="card h-100">
+                                    <img src="../assets/images/IDLaces/481164458_947936074168387_4183807027315665251_n.jpg" class="card-img-top" alt="PnC Mug">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">CHAS ID Lace</h5>
+                                        <p class="card-text">₱150</p>
+                                        <button class="btn btn-success">Add to Cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <div class="card h-100">
+                                    <img src="../assets/images/IDLaces/481105108_947936004168394_6564421023178852411_n.jpg" class="card-img-top" alt="PnC Cap">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">CBAA ID Lace</h5>
+                                        <p class="card-text">₱250</p>
+                                        <button class="btn btn-success">Add to Cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   <!--MODAL FOOTER WITH BUTTONS FOR CHECK OUT AND NAVIGATION-->
+                    <div class="modal-footer">
+                        <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button class="btn btn-primary disabled" data-toggle="tooltip" data-placement="top" title="This feature is current unavailable">Checkout</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!--FOOTER-->
+        <footer class="text-start">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 mb-2 mb-md-0">
+                        <h5>Quick Links</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="../index.html" class="text-white" style="text-decoration: none;">Home</a></li>
+                            <li><a class="text-white" style="text-decoration: none;">About Us</a></li>
+                            <li><a href="about/hymn.html" class="text-white" style="text-decoration: none;">&nbsp; • Hymn</a></li>
+                            <li><a href="about/history.html" class="text-white" style="text-decoration: none;">&nbsp; • History</a></li>
+                            <li><a href="../category/programs.html" class="text-white" style="text-decoration: none;">Programs</a></li>
+                            <li><a href="programs/college-of-computing.html" class="text-white" style="text-decoration: none;">&nbsp; • College Of Computing</a></li>
+                            <li><a href="#" class="text-white" style="text-decoration: none;">Admissions</a></li>
+                            <li><a href="admissions/admission-form.html" class="text-white" style="text-decoration: none;">&nbsp; • Admission Form</a></li>
+                            <li><a href="admissions/requirements.html" class="text-white" style="text-decoration: none;">&nbsp; • Requirements</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 mb-2 mb-md-0">
+                        <h5>Contact Us</h5>
+                        <p>Banay-Banay, Cabuyao, Laguna</p>
+                        <p>(000) 123-4567</p>
+                        <p>info@pnc.edu.ph</p>
+                    </div>
+                    <div class="col-md-4 mb-2 mb-md-0">
+                        <h5>Want to be a PnCian?</h5>
+                        <p>Fill out our application form!</p>
+                        <a href="../apply-form.html" class="apply-button"> Apply Now !!</a>
+                    </div>
+                </div>
+                <hr class="my-4 bg-white">
+                <p class="mb-0 text-center">2024–2025 Pamantasan ng Cabuyao.</p>
+            </div>
+        </footer>
+    <!--BOOTSTRAP JS FOR ANIMATIONS AND FUNCTIONALITY-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+</html>
